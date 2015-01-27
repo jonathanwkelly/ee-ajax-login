@@ -168,19 +168,6 @@ class Ajax_login
 					)
 				);
 			}
-
-			// --- is their login correct?
-
-			
-
-			// if($passError = $this->member->passwordErrors($password, $password_confirm))
-			// {
-			// 	$this->_respond(
-			// 		FALSE, 
-			// 		lang('al_err_wrong_password_code'), 
-			// 		array('password' => $passError)
-			// 	);
-			// }
 		}
 	}
 
